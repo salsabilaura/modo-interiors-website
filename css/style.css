@@ -1,4 +1,5 @@
 :root{
+
   --ink:#1f211f;
   --muted:#77766f;
   --cream:#f3f0e9;
@@ -8,7 +9,9 @@
   --accent:#a98557;
 
   --serif:Georgia,"Times New Roman",serif;
+
   --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+
 }
 
 
@@ -47,10 +50,13 @@ button{
 ========================================= */
 
 .site-header{
+
   position:absolute;
   z-index:20;
+
   top:0;
   left:0;
+
   width:100%;
 
   display:flex;
@@ -66,15 +72,18 @@ button{
 /* LOGO */
 
 .brand{
+
   font-size:18px;
   font-weight:800;
   letter-spacing:.18em;
+
   color:var(--ink);
 
   transition:opacity .3s ease;
 }
 
 .brand span{
+
   font-weight:400;
   color:var(--ink);
 }
@@ -87,8 +96,11 @@ button{
 /* MAIN NAV */
 
 .main-nav{
+
   display:flex;
+
   gap:10px;
+
   align-items:center;
 
   font-size:13px;
@@ -96,18 +108,22 @@ button{
 }
 
 .main-nav a{
+
   position:relative;
 
   display:inline-flex;
+
   align-items:center;
   justify-content:center;
 
   padding:9px 14px;
 
   color:var(--ink);
+
   opacity:.72;
 
   border:1px solid transparent;
+
   border-radius:100px;
 
   transition:
@@ -120,10 +136,13 @@ button{
 
 .main-nav a:hover,
 .main-nav a.active{
+
   color:var(--ink);
+
   opacity:1;
 
   border-color:rgba(31,33,31,.22);
+
   background:rgba(255,255,255,.55);
 
   transform:translateY(-2px);
@@ -133,16 +152,20 @@ button{
 /* NAVBAR CTA */
 
 .nav-cta{
+
   display:inline-flex;
+
   align-items:center;
   justify-content:center;
 
   padding:10px 17px;
 
   border:1px solid var(--ink);
+
   border-radius:100px;
 
   background:var(--ink);
+
   color:#fff !important;
 
   opacity:1 !important;
@@ -155,12 +178,15 @@ button{
 }
 
 .nav-cta:hover{
+
   background:transparent;
+
   color:var(--ink) !important;
 
   transform:translateY(-2px);
 
-  box-shadow:0 8px 20px rgba(31,33,31,.08);
+  box-shadow:
+    0 8px 20px rgba(31,33,31,.08);
 }
 
 
@@ -184,20 +210,27 @@ button{
 
 .home-page .main-nav a:hover,
 .home-page .main-nav a.active{
+
   color:#fff;
 
   border-color:rgba(255,255,255,.45);
+
   background:rgba(255,255,255,.12);
 }
 
 .home-page .nav-cta{
+
   border-color:#fff;
+
   background:#fff;
+
   color:var(--ink) !important;
 }
 
 .home-page .nav-cta:hover{
+
   background:transparent;
+
   color:#fff !important;
 
   box-shadow:none;
@@ -209,14 +242,17 @@ button{
 ========================================= */
 
 .menu-toggle{
+
   display:none;
 
   background:none;
+
   border:0;
 
   color:var(--ink);
 
   font-size:25px;
+
   cursor:pointer;
 }
 
@@ -230,11 +266,13 @@ button{
 ========================================= */
 
 .hero{
+
   min-height:100vh;
 
   position:relative;
 
   display:flex;
+
   align-items:flex-end;
 
   overflow:hidden;
@@ -242,21 +280,31 @@ button{
   color:#fff;
 
   background:
+
     linear-gradient(
       90deg,
       rgba(22,25,22,.72),
       rgba(22,25,22,.25) 60%,
       rgba(22,25,22,.38)
     ),
+
     url("../assets/hero-room.jpg") center/cover,
-    linear-gradient(135deg,#756b5d,#252823);
+
+    linear-gradient(
+      135deg,
+      #756b5d,
+      #252823
+    );
 }
 
 .hero-overlay{
+
   position:absolute;
+
   inset:0;
 
   background:
+
     linear-gradient(
       0deg,
       rgba(10,12,10,.55),
@@ -265,7 +313,9 @@ button{
 }
 
 .hero-content{
+
   position:relative;
+
   z-index:1;
 
   padding:0 5vw 10vh;
@@ -274,8 +324,11 @@ button{
 }
 
 .eyebrow{
+
   font-size:11px;
+
   letter-spacing:.24em;
+
   font-weight:700;
 
   margin:0 0 20px;
@@ -286,7 +339,9 @@ button{
 .hero h1,
 .page-hero h1,
 .catalog-header h1{
+
   font-size:clamp(48px,7vw,92px);
+
   line-height:.98;
 
   letter-spacing:-.045em;
@@ -298,12 +353,16 @@ button{
 
 h1 em,
 h2 em{
+
   font-family:var(--serif);
+
   font-weight:400;
 }
 
 .hero-subtitle{
+
   font-size:15px;
+
   letter-spacing:.14em;
 
   margin:24px 0 30px;
@@ -312,26 +371,33 @@ h2 em{
 }
 
 .hero-actions{
+
   display:flex;
+
   gap:26px;
 
   align-items:center;
 }
 
 .hero-scroll{
+
   position:absolute;
 
   right:5vw;
+
   bottom:45px;
 
   font-size:10px;
+
   letter-spacing:.2em;
 
   opacity:.7;
 }
 
 .hero-scroll span{
+
   font-size:17px;
+
   margin-left:7px;
 }
 
@@ -341,19 +407,24 @@ h2 em{
 ========================================= */
 
 .btn{
+
   display:inline-flex;
+
   align-items:center;
   justify-content:center;
 
   padding:13px 21px;
 
   border-radius:100px;
+
   border:1px solid transparent;
 
   font-size:12px;
+
   font-weight:700;
 
   letter-spacing:.08em;
+
   text-transform:uppercase;
 
   transition:
@@ -368,20 +439,27 @@ h2 em{
 }
 
 .btn-light{
+
   background:#fff;
+
   color:var(--ink);
 }
 
 .btn-dark{
+
   background:var(--ink);
+
   color:#fff;
 }
 
 .text-link{
+
   font-size:12px;
+
   font-weight:700;
 
   letter-spacing:.08em;
+
   text-transform:uppercase;
 
   border-bottom:1px solid var(--ink);
@@ -390,7 +468,9 @@ h2 em{
 }
 
 .text-link.light{
+
   color:#fff;
+
   border-color:rgba(255,255,255,.55);
 }
 
@@ -400,6 +480,7 @@ h2 em{
 ========================================= */
 
 .section{
+
   padding:110px 5vw;
 }
 
@@ -409,6 +490,7 @@ h2 em{
 ========================================= */
 
 .intro{
+
   display:grid;
 
   grid-template-columns:1.2fr .8fr;
@@ -424,6 +506,7 @@ h2 em{
 .about-text h2,
 .about-services h2,
 .cta h2{
+
   font-size:clamp(38px,4.5vw,64px);
 
   line-height:1.04;
@@ -436,17 +519,23 @@ h2 em{
 }
 
 .intro h2 span{
+
   font-family:var(--serif);
+
   font-weight:400;
 }
 
 .intro-copy{
+
   max-width:480px;
+
   color:var(--muted);
 }
 
 .intro-copy p{
+
   font-size:16px;
+
   margin:0 0 26px;
 }
 
@@ -456,11 +545,14 @@ h2 em{
 ========================================= */
 
 .section-dark{
+
   background:var(--dark);
+
   color:#f5f2eb;
 }
 
 .section-heading{
+
   display:flex;
 
   justify-content:space-between;
@@ -478,6 +570,7 @@ h2 em{
 ========================================= */
 
 .material-grid{
+
   display:grid;
 
   grid-template-columns:repeat(4,1fr);
@@ -488,50 +581,129 @@ h2 em{
 }
 
 .material-tile{
+
+  position:relative;
+
   min-height:310px;
 
   padding:28px;
 
   display:flex;
+
   flex-direction:column;
+
   justify-content:space-between;
 
-  background:var(--dark);
+  overflow:hidden;
 
-  transition:.35s;
+  color:#fff;
+
+  background-color:#333;
+
+  background-size:cover;
+
+  background-position:center;
+
+  transition:
+    transform .35s ease,
+    box-shadow .35s ease;
 }
 
-.material-tile:hover{
-  background:#2c312b;
 
-  transform:translateY(-4px);
+/* MATERIAL IMAGE BACKGROUND */
+
+.material-tile:nth-child(1){
+
+  background-image:
+
+    linear-gradient(
+      to top,
+      rgba(0,0,0,.78),
+      rgba(0,0,0,.15)
+    ),
+
+    url("/assets/hpl/hpl.png");
 }
+
+.material-tile:nth-child(2){
+
+  background-image:
+
+    linear-gradient(
+      to top,
+      rgba(0,0,0,.78),
+      rgba(0,0,0,.15)
+    ),
+
+    url("/assets/lantai-spc/lantai-spc.png");
+}
+
+.material-tile:nth-child(3){
+
+  background-image:
+
+    linear-gradient(
+      to top,
+      rgba(0,0,0,.78),
+      rgba(0,0,0,.15)
+    ),
+
+    url("/assets/wallpanel/wallpanel.png");
+}
+
+.material-tile:nth-child(4){
+
+  background-image:
+
+    linear-gradient(
+      to top,
+      rgba(0,0,0,.78),
+      rgba(0,0,0,.15)
+    ),
+
+    url("/assets/vinyl-flooring/vinyl-flooring.png");
+}
+
+
+/* MATERIAL TEXT */
 
 .material-tile span,
-.value-grid span,
-.service-list span{
-  font-size:11px;
-  letter-spacing:.16em;
+.material-tile h3,
+.material-tile p{
 
-  opacity:.55;
+  position:relative;
+
+  z-index:2;
 }
 
 .material-tile h3{
+
   font-size:29px;
 
   margin:0 0 9px;
 
   font-weight:500;
+
+  color:#fff;
 }
 
 .material-tile p{
+
   font-size:13px;
 
-  color:#b9b8b1;
+  color:rgba(255,255,255,.82);
 
   margin:0;
 
   max-width:230px;
+}
+
+.material-tile:hover{
+
+  transform:translateY(-5px);
+
+  box-shadow:
+    0 18px 40px rgba(0,0,0,.18);
 }
 
 
@@ -540,6 +712,7 @@ h2 em{
 ========================================= */
 
 .statement{
+
   display:grid;
 
   grid-template-columns:120px 1fr;
@@ -550,7 +723,9 @@ h2 em{
 }
 
 .statement-mark{
+
   width:82px;
+
   height:82px;
 
   border:1px solid var(--line);
@@ -558,6 +733,7 @@ h2 em{
   border-radius:50%;
 
   display:grid;
+
   place-items:center;
 
   font-family:var(--serif);
@@ -566,6 +742,7 @@ h2 em{
 }
 
 .statement p{
+
   max-width:950px;
 }
 
@@ -575,16 +752,19 @@ h2 em{
 ========================================= */
 
 .cta{
+
   text-align:center;
 
   background:var(--cream);
 }
 
 .cta .eyebrow{
+
   margin-bottom:25px;
 }
 
 .cta .btn{
+
   margin-top:34px;
 }
 
@@ -594,6 +774,7 @@ h2 em{
 ========================================= */
 
 .footer{
+
   background:#161915;
 
   color:#fff;
@@ -610,6 +791,7 @@ h2 em{
 }
 
 .footer-brand{
+
   font-size:18px;
 
   font-weight:800;
@@ -620,16 +802,21 @@ h2 em{
 }
 
 .footer-brand span{
+
   font-weight:400;
+
   color:#fff;
 }
 
 .footer-copy{
+
   font-size:12px;
+
   opacity:.55;
 }
 
 .footer-nav{
+
   display:flex;
 
   gap:22px;
@@ -640,14 +827,17 @@ h2 em{
 }
 
 .footer-nav a{
+
   transition:opacity .25s ease;
 }
 
 .footer-nav a:hover{
+
   opacity:1;
 }
 
 .footer-bottom{
+
   grid-column:1/-1;
 
   border-top:1px solid rgba(255,255,255,.12);
@@ -664,8 +854,8 @@ h2 em{
    ABOUT PAGE HERO
 ========================================= */
 
+.page-hero{
 
- .page-hero{
   min-height:72vh;
 
   position:relative;
@@ -679,15 +869,21 @@ h2 em{
   color:#fff;
 
   background:
+
     linear-gradient(
       90deg,
       rgba(25,28,25,.65),
       rgba(25,28,25,.25)
     ),
-    url("../assets/tentangkami.jpg") center/cover no-repeat,
-    linear-gradient(135deg,#242821,#55584e);
-}
 
+    url("../assets/tentangkami.jpg") center/cover no-repeat,
+
+    linear-gradient(
+      135deg,
+      #242821,
+      #55584e
+    );
+}
 
 
 /* =========================================
@@ -695,6 +891,7 @@ h2 em{
 ========================================= */
 
 .about-story{
+
   display:grid;
 
   grid-template-columns:.35fr 1fr;
@@ -703,14 +900,17 @@ h2 em{
 }
 
 .about-text{
+
   max-width:850px;
 }
 
 .about-text h2{
+
   margin-bottom:35px;
 }
 
 .about-text p{
+
   color:var(--muted);
 
   max-width:760px;
@@ -724,6 +924,7 @@ h2 em{
 ========================================= */
 
 .value-grid{
+
   display:grid;
 
   grid-template-columns:repeat(3,1fr);
@@ -734,6 +935,7 @@ h2 em{
 }
 
 .value-grid article{
+
   background:var(--dark);
 
   padding:35px;
@@ -742,6 +944,7 @@ h2 em{
 }
 
 .value-grid h3{
+
   font-size:30px;
 
   font-weight:500;
@@ -750,6 +953,7 @@ h2 em{
 }
 
 .value-grid p{
+
   font-size:14px;
 
   color:#b9b8b1;
@@ -763,6 +967,7 @@ h2 em{
 ========================================= */
 
 .about-services{
+
   display:grid;
 
   grid-template-columns:1fr 1fr;
@@ -771,10 +976,12 @@ h2 em{
 }
 
 .service-list{
+
   border-top:1px solid var(--line);
 }
 
 .service-list div{
+
   padding:23px 0;
 
   border-bottom:1px solid var(--line);
@@ -787,12 +994,14 @@ h2 em{
 }
 
 .service-list strong{
+
   font-size:19px;
 
   font-weight:500;
 }
 
 .service-list p{
+
   grid-column:2;
 
   margin:5px 0 0;
@@ -808,6 +1017,7 @@ h2 em{
 ========================================= */
 
 .about-info{
+
   display:grid;
 
   grid-template-columns:repeat(3,1fr);
@@ -822,16 +1032,19 @@ h2 em{
 }
 
 .about-info-item{
+
   padding-right:30px;
 
   border-right:1px solid var(--line);
 }
 
 .about-info-item:last-child{
+
   border-right:none;
 }
 
 .about-label{
+
   display:block;
 
   margin-bottom:12px;
@@ -846,6 +1059,7 @@ h2 em{
 }
 
 .about-info-item p{
+
   margin:0;
 
   color:var(--ink);
@@ -861,6 +1075,7 @@ h2 em{
 ========================================= */
 
 .catalog-header{
+
   padding-top:170px;
 
   padding-bottom:80px;
@@ -869,6 +1084,7 @@ h2 em{
 }
 
 .catalog-lead{
+
   max-width:540px;
 
   margin:30px 0 0;
@@ -879,6 +1095,7 @@ h2 em{
 }
 
 .catalog-categories{
+
   padding-top:50px;
 }
 
@@ -888,6 +1105,7 @@ h2 em{
 ========================================= */
 
 .catalog-grid{
+
   display:grid;
 
   grid-template-columns:repeat(3,1fr);
@@ -901,6 +1119,7 @@ h2 em{
 ========================================= */
 
 .catalog-card{
+
   position:relative;
 
   min-height:380px;
@@ -922,6 +1141,7 @@ h2 em{
 
 .catalog-card:hover,
 .catalog-card.selected{
+
   transform:translateY(-5px);
 
   box-shadow:
@@ -932,11 +1152,13 @@ h2 em{
 /* CATALOG IMAGE */
 
 .catalog-card-image{
+
   position:absolute;
 
   inset:0;
 
   width:100%;
+
   height:100%;
 
   object-fit:cover;
@@ -945,6 +1167,7 @@ h2 em{
 }
 
 .catalog-card:hover .catalog-card-image{
+
   transform:scale(1.05);
 }
 
@@ -952,11 +1175,13 @@ h2 em{
 /* CATALOG OVERLAY */
 
 .catalog-card-overlay{
+
   position:absolute;
 
   inset:0;
 
   background:
+
     linear-gradient(
       to top,
       rgba(0,0,0,.75),
@@ -970,12 +1195,14 @@ h2 em{
 .catalog-card .catalog-number,
 .catalog-card .catalog-card-info,
 .catalog-card .catalog-arrow{
+
   position:relative;
 
   z-index:2;
 }
 
 .catalog-card .catalog-number{
+
   display:block;
 
   padding:26px;
@@ -986,16 +1213,20 @@ h2 em{
 }
 
 .catalog-card-info{
+
   position:absolute !important;
 
   left:26px;
+
   right:70px;
+
   bottom:26px;
 
   margin-top:auto;
 }
 
 .catalog-card h3{
+
   color:#fff;
 
   font-size:30px;
@@ -1006,6 +1237,7 @@ h2 em{
 }
 
 .catalog-card p{
+
   color:rgba(255,255,255,.78);
 
   font-size:13px;
@@ -1016,12 +1248,16 @@ h2 em{
 }
 
 
-/* CATALOG ARROW */
+/* =========================================
+   CATALOG ARROW
+========================================= */
 
 .catalog-arrow{
+
   position:absolute !important;
 
   right:26px;
+
   bottom:26px;
 
   font-size:18px;
@@ -1036,6 +1272,7 @@ h2 em{
 }
 
 .catalog-card:hover .catalog-arrow{
+
   transform:translateX(5px);
 }
 
@@ -1045,14 +1282,20 @@ h2 em{
 ========================================= */
 
 .catalog-detail{
+
   display:none;
 }
 
 .catalog-detail.open{
+
   display:block;
 }
 
+
+/* DETAIL TOP */
+
 .detail-top{
+
   display:flex;
 
   justify-content:space-between;
@@ -1065,6 +1308,7 @@ h2 em{
 }
 
 .detail-top h2{
+
   font-size:clamp(40px,5vw,70px);
 
   line-height:1;
@@ -1075,15 +1319,19 @@ h2 em{
 }
 
 .detail-top p{
+
   color:#b9b8b1;
 
   max-width:600px;
 }
 
 
-/* CLOSE BUTTON */
+/* =========================================
+   CLOSE BUTTON
+========================================= */
 
 .detail-close{
+
   border:1px solid rgba(255,255,255,.25);
 
   background:none;
@@ -1091,6 +1339,7 @@ h2 em{
   color:#fff;
 
   width:42px;
+
   height:42px;
 
   border-radius:50%;
@@ -1106,6 +1355,7 @@ h2 em{
 }
 
 .detail-close:hover{
+
   background:rgba(255,255,255,.08);
 
   border-color:rgba(255,255,255,.5);
@@ -1114,9 +1364,12 @@ h2 em{
 }
 
 
-/* DETAIL CONTENT */
+/* =========================================
+   DETAIL CONTENT
+========================================= */
 
 .detail-content{
+
   display:grid;
 
   grid-template-columns:1fr 1fr;
@@ -1124,20 +1377,117 @@ h2 em{
   gap:25px;
 }
 
-.detail-image{
+
+/* =========================================
+   DETAIL / VARIATION CARD
+========================================= */
+
+/*
+   CSS ini sengaja dibuat lebih kecil.
+
+   Gambar variasi tidak lagi memenuhi
+   seluruh area kolom.
+*/
+
+.detail-content .variation-card{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  width:100%;
+
+  min-width:0;
+
+  padding:18px;
+
   background:#30352f;
 
-  padding:12px;
+  overflow:hidden;
+}
+
+
+/* GAMBAR VARIASI */
+
+.detail-content .variation-card img{
+
+  display:block;
+
+  width:52%;
+
+  max-width:300px;
+
+  max-height:330px;
+
+  height:auto;
+
+  object-fit:contain;
+
+  margin:0 auto;
+}
+
+
+/*
+   Jika variation-card berisi link atau
+   elemen pembungkus gambar.
+*/
+
+.detail-content .variation-card a{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  width:100%;
+}
+
+
+/*
+   Untuk struktur yang menggunakan
+   gambar langsung tanpa variation-card.
+*/
+
+.detail-image{
+
+  background:#30352f;
+
+  padding:18px;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
 }
 
 .detail-image img{
+
   display:block;
 
-  width:100%;
+  width:52%;
+
+  max-width:300px;
+
+  max-height:330px;
+
   height:auto;
+
+  object-fit:contain;
+
+  margin:0 auto;
 }
 
+
+/* =========================================
+   DETAIL PLACEHOLDER
+========================================= */
+
 .detail-placeholder{
+
   min-height:330px;
 
   border:1px dashed rgba(255,255,255,.25);
@@ -1154,6 +1504,7 @@ h2 em{
 }
 
 .detail-placeholder strong{
+
   display:block;
 
   color:#fff;
@@ -1165,20 +1516,6 @@ h2 em{
 
 
 /* =========================================
-   ABOUT PAGE HERO - OPTIONAL ROOM IMAGE
-========================================= */
-
-/*
-  Masukkan foto ruangan Tentang Kami ke:
-
-  assets/about-hero.jpg
-
-  Jika nama file berbeda,
-  ubah url di .page-hero di atas.
-*/
-
-
-/* =========================================
    TABLET
 ========================================= */
 
@@ -1187,6 +1524,7 @@ h2 em{
   /* NAVBAR */
 
   .main-nav{
+
     display:none;
 
     position:absolute;
@@ -1194,6 +1532,7 @@ h2 em{
     top:72px;
 
     right:5vw;
+
     left:5vw;
 
     background:rgba(25,27,24,.97);
@@ -1215,6 +1554,7 @@ h2 em{
   }
 
   .main-nav a{
+
     color:#fff;
 
     justify-content:flex-start;
@@ -1224,6 +1564,7 @@ h2 em{
 
   .main-nav a:hover,
   .main-nav a.active{
+
     color:#fff;
 
     border-color:rgba(255,255,255,.25);
@@ -1232,6 +1573,7 @@ h2 em{
   }
 
   .nav-cta{
+
     text-align:center;
 
     justify-content:center !important;
@@ -1247,6 +1589,7 @@ h2 em{
   /* HOME */
 
   .hero-content{
+
     padding-bottom:90px;
   }
 
@@ -1256,6 +1599,7 @@ h2 em{
   .intro,
   .about-story,
   .about-services{
+
     grid-template-columns:1fr;
 
     gap:45px;
@@ -1266,6 +1610,7 @@ h2 em{
 
   .material-grid,
   .catalog-grid{
+
     grid-template-columns:repeat(2,1fr);
   }
 
@@ -1273,6 +1618,7 @@ h2 em{
   /* VALUES */
 
   .value-grid{
+
     grid-template-columns:1fr;
   }
 
@@ -1280,10 +1626,12 @@ h2 em{
   /* FOOTER */
 
   .footer{
+
     grid-template-columns:1fr 1fr;
   }
 
   .footer-nav{
+
     grid-column:1/-1;
   }
 
@@ -1291,21 +1639,60 @@ h2 em{
   /* CATALOG DETAIL */
 
   .detail-content{
+
     grid-template-columns:1fr;
+  }
+
+
+  /*
+     Tablet dibuat sedikit lebih besar
+     daripada mobile tetapi tetap lebih
+     kecil dari ukuran sebelumnya.
+  */
+
+  .detail-content .variation-card{
+
+    padding:18px;
+  }
+
+  .detail-content .variation-card img{
+
+    width:42%;
+
+    max-width:300px;
+
+    max-height:320px;
+  }
+
+  .detail-image{
+
+    padding:18px;
+  }
+
+  .detail-image img{
+
+    width:42%;
+
+    max-width:300px;
+
+    max-height:320px;
   }
 
 
   /* ABOUT INFO */
 
   .about-info{
+
     grid-template-columns:1fr 1fr;
   }
 
   .about-info-item:nth-child(2){
+
     border-right:none;
   }
 
   .about-info-item:last-child{
+
     grid-column:1/-1;
 
     border-top:1px solid var(--line);
@@ -1325,6 +1712,7 @@ h2 em{
   /* HEADER */
 
   .site-header{
+
     padding:20px 6vw;
   }
 
@@ -1332,14 +1720,17 @@ h2 em{
   /* HOME */
 
   .hero{
+
     min-height:90vh;
   }
 
   .hero h1{
+
     font-size:50px;
   }
 
   .hero-actions{
+
     flex-direction:column;
 
     align-items:flex-start;
@@ -1351,6 +1742,7 @@ h2 em{
   /* SECTION */
 
   .section{
+
     padding:75px 6vw;
   }
 
@@ -1359,77 +1751,25 @@ h2 em{
 
   .material-grid,
   .catalog-grid{
+
     grid-template-columns:1fr;
   }
 
   .material-tile{
-  position:relative;
-  min-height:310px;
 
-  padding:28px;
-
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-
-  overflow:hidden;
-
-  color:#fff;
-
-  background-color:#333;
-
-  background-size:cover;
-  background-position:center;
-
-  transition:
-    transform .35s ease,
-    box-shadow .35s ease;
-}
-
-/* TEXT DI ATAS GAMBAR */
-.material-tile span,
-.material-tile h3,
-.material-tile p{
-  position:relative;
-  z-index:2;
-}
+    min-height:310px;
+  }
 
 
-/* JUDUL */
-.material-tile h3{
-  color:#fff;
-}
-
-
-/* DESKRIPSI */
-.material-tile p{
-  color:rgba(255,255,255,.82);
-}
-
-
-/* HOVER */
-.material-tile:hover{
-  transform:translateY(-5px);
-
-  box-shadow:
-    0 18px 40px rgba(0,0,0,.18);
-}
-
-.material-grid,
-.catalog-grid{
-  grid-template-columns:1fr;
-}
-
-.material-tile{
-  min-height:310px;
-}
   /* SECTION HEADING */
 
   .section-heading{
+
     display:block;
   }
 
   .section-heading .text-link{
+
     display:inline-block;
 
     margin-top:25px;
@@ -1439,13 +1779,16 @@ h2 em{
   /* STATEMENT */
 
   .statement{
+
     grid-template-columns:1fr;
 
     gap:25px;
   }
 
   .statement-mark{
+
     width:62px;
+
     height:62px;
   }
 
@@ -1453,6 +1796,7 @@ h2 em{
   /* ABOUT */
 
   .page-hero{
+
     min-height:65vh;
 
     padding:0 6vw 70px;
@@ -1464,240 +1808,119 @@ h2 em{
   /* FOOTER */
 
   .footer{
+
     padding:40px 6vw;
 
     grid-template-columns:1fr;
   }
 
   .footer-nav{
+
     grid-column:auto;
 
     flex-wrap:wrap;
   }
 
 
-  /* ABOUT INFO */
-
-  /* =========================================
-   ABOUT PAGE HERO
-========================================= */
-
-.about-hero {
-  position: relative;
-
-  min-height: 75vh;
-
-  display: flex;
-  align-items: flex-end;
-
-  padding: 100px 7%;
-
-  background-image: url("../assets/tentangkami.jpg") ;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  overflow: hidden;
-}
-
-
-/* Overlay */
-
-.about-hero-overlay {
-  position: absolute;
-
-  inset: 0;
-
-  background:
-    linear-gradient(
-      90deg,
-      rgba(20, 23, 20, .72) 0%,
-      rgba(20, 23, 20, .35) 55%,
-      rgba(20, 23, 20, .10) 100%
-    );
-}
-
-
-/* Content */
-
-.about-hero-content {
-  position: relative;
-
-  z-index: 2;
-
-  max-width: 680px;
-
-  color: #fff;
-}
-
-
-.about-hero-content .eyebrow {
-  display: block;
-
-  margin-bottom: 20px;
-
-  font-size: 10px;
-  letter-spacing: .25em;
-  text-transform: uppercase;
-
-  opacity: .8;
-}
-
-
-.about-hero-content h1 {
-  margin: 0 0 24px;
-
-  font-size: clamp(42px, 6vw, 78px);
-
-  line-height: .98;
-
-  font-weight: 400;
-
-  letter-spacing: -.03em;
-}
-
-
-.about-hero-content p {
-  max-width: 520px;
-
-  margin: 0;
-
-  font-size: 15px;
-
-  line-height: 1.8;
-
-  color: rgba(255,255,255,.82);
-}
-  /* CATALOG CARD */
+  /* =====================================
+     CATALOG CARD
+  ===================================== */
 
   .catalog-card{
+
     min-height:340px;
   }
 
 
-  /* CATALOG DETAIL */
+  /* =====================================
+     CATALOG DETAIL
+  ===================================== */
 
   .detail-top{
+
     flex-direction:column;
   }
 
   .detail-close{
+
     align-self:flex-end;
   }
 
-}
 
-/* =========================================
-   MATERIAL GRID
-========================================= */
+  /*
+     MOBILE VARIATION
 
-.material-grid{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:1px;
-  background:rgba(255,255,255,.16);
-}
+     Dibuat cukup kecil supaya gambar
+     tidak memenuhi layar.
+  */
 
+  .detail-content .variation-card{
 
-.material-tile{
-  position:relative;
+    width:100%;
 
-  min-height:310px;
+    padding:15px;
+  }
 
-  padding:28px;
+  .detail-content .variation-card img{
 
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
+    width:62%;
 
-  overflow:hidden;
+    max-width:240px;
 
-  color:#fff;
+    max-height:270px;
 
-  background-color:#333;
-
-  background-size:cover;
-  background-position:center;
-
-  transition:
-    transform .35s ease,
-    box-shadow .35s ease;
-}
+    margin:0 auto;
+  }
 
 
-/* =========================================
-   MATERIAL IMAGE BACKGROUND
-========================================= */
+  /* DETAIL IMAGE */
 
-.material-tile:nth-child(1){
-  background-image:
-    linear-gradient(
-      to top,
-      rgba(0,0,0,.78),
-      rgba(0,0,0,.15)
-    ),
-    url("/assets/hpl/hpl\ -\ Copy.png");
-}
+  .detail-image{
 
+    padding:15px;
+  }
 
-.material-tile:nth-child(2){
-  background-image:
-    linear-gradient(
-      to top,
-      rgba(0,0,0,.78),
-      rgba(0,0,0,.15)
-    ),
-    url("/assets/lantai-spc/lantai-spc\ -\ Copy.png");
-}
+  .detail-image img{
+
+    width:62%;
+
+    max-width:240px;
+
+    max-height:270px;
+
+    margin:0 auto;
+  }
 
 
-.material-tile:nth-child(3){
-  background-image:
-    linear-gradient(
-      to top,
-      rgba(0,0,0,.78),
-      rgba(0,0,0,.15)
-    ),
-    url("/assets/wallpanel/wallpanel\ -\ Copy.png");
-}
+  /* =====================================
+     ABOUT INFO
+  ===================================== */
 
+  .about-info{
 
-.material-tile:nth-child(4){
-  background-image:
-    linear-gradient(
-      to top,
-      rgba(0,0,0,.78),
-      rgba(0,0,0,.15)
-    ),
-    url("/assets/vinyl-flooring/vinyl-flooring\ -\ Copy.png");
-}
+    grid-template-columns:1fr;
+  }
 
+  .about-info-item{
 
-/* TEXT */
+    padding-right:0;
 
-.material-tile span,
-.material-tile h3,
-.material-tile p{
-  position:relative;
-  z-index:2;
-}
+    padding-bottom:20px;
 
+    border-right:none;
 
-.material-tile h3{
-  color:#fff;
-}
+    border-bottom:1px solid var(--line);
+  }
 
+  .about-info-item:last-child{
 
-.material-tile p{
-  color:rgba(255,255,255,.82);
-}
+    grid-column:auto;
 
+    border-top:none;
 
-/* HOVER */
+    border-bottom:none;
 
-.material-tile:hover{
-  transform:translateY(-5px);
+    padding-top:0;
+  }
 
-  box-shadow:
-    0 18px 40px rgba(0,0,0,.18);
 }
