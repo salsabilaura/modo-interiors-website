@@ -1,7 +1,3 @@
-# MODO INTERIORS — Static Company Profile
+# MODO INTERIORS — Company Profile
 
-3 halaman:
-- index.html — Home
-- about.html — Tentang Kami
-- katalog.html — Katalog
-
+A modern interior design website featuring a brand-focused Home page, company information and services on the About page, and an interactive Catalog for exploring material categories and design variations through a clean and responsive interface.
