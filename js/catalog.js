@@ -1332,13 +1332,70 @@ const designCategories = [
     desc:
       'Inspirasi desain toilet dan vanity area yang fungsional dan modern.',
 
-    image: null,
+    image: 'assets/katalog_design/toilet-table/TT-01.png',
 
     variations: [
 
-      /*
-      Tambahkan variasi toilet table di sini.
-      */
+      {
+        name: 'TT-01',
+        image:
+          'assets/katalog_design/toilet-table/TT-01.png'
+      },
+      {
+        name: 'TT-02',
+        image:
+          'assets/katalog_design/toilet-table/TT-02.png'
+      },
+      {
+        name: 'TT-03',
+        image:
+          'assets/katalog_design/toilet-table/TT-03.png'
+      },
+      {
+        name: 'TT-04',
+        image:
+          'assets/katalog_design/toilet-table/TT-04.png'
+      },
+      {
+        name: 'TT-05',
+        image:
+          'assets/katalog_design/toilet-table/TT-05.png'
+      },
+      {
+        name: 'TT-06',
+        image:
+          'assets/katalog_design/toilet-table/TT-06.png'
+      },
+      {
+        name: 'TT-07',
+        image:
+          'assets/katalog_design/toilet-table/TT-07.png'
+      },
+      {
+        name: 'TT-08',
+        image:
+          'assets/katalog_design/toilet-table/TT-08.png'
+      },
+      {
+        name: 'TT-09',
+        image:
+          'assets/katalog_design/toilet-table/TT-09.png'
+      },
+      {
+        name: 'TT-10',
+        image:
+          'assets/katalog_design/toilet-table/TT-10.png'
+      },
+      {
+        name: 'TT-11',
+        image:
+          'assets/katalog_design/toilet-table/TT-11.png'
+      },
+      {
+        name: 'TT-12',
+        image:
+          'assets/katalog_design/toilet-table/TT-12.png'
+      },
 
     ]
   }
