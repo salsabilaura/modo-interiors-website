@@ -397,23 +397,6 @@ const designCategories = [
 
     variations: [
 
-      /*
-      Contoh:
-
-      {
-        name: 'Kitchen Set 01',
-        image:
-          'assets/katalog_design/kitchen-set/KS-01.png'
-      },
-
-      {
-        name: 'Kitchen Set 02',
-        image:
-          'assets/katalog_design/kitchen-set/KS-02.png'
-      }
-
-      */
-
     ]
   },
 
@@ -430,20 +413,424 @@ const designCategories = [
     desc:
       'Inspirasi desain living room dengan suasana nyaman, hangat, dan modern.',
 
-    image: null,
+    image: 'assets/katalog_design/living-room/LR-02.png',
 
     variations: [
-
-      /*
-      Tambahkan gambar Living Room di sini.
-
-      {
-        name: 'Living Room 01',
-        image:
-          'assets/katalog_design/living-room/LR-01.png'
-      }
-
-      */
+  {
+  name: 'LR-01',
+  image:
+    'assets/katalog_design/living-room/LR-01.png'
+},
+{
+  name: 'LR-02',
+  image:
+    'assets/katalog_design/living-room/LR-02.png'
+},
+{
+  name: 'LR-03',
+  image:
+    'assets/katalog_design/living-room/LR-03.png'
+},
+{
+  name: 'LR-04',
+  image:
+    'assets/katalog_design/living-room/LR-04.png'
+},
+{
+  name: 'LR-05',
+  image:
+    'assets/katalog_design/living-room/LR-05.png'
+},
+{
+  name: 'LR-06',
+  image:
+    'assets/katalog_design/living-room/LR-06.png'
+},
+{
+  name: 'LR-07',
+  image:
+    'assets/katalog_design/living-room/LR-07.png'
+},
+{
+  name: 'LR-08',
+  image:
+    'assets/katalog_design/living-room/LR-08.png'
+},
+{
+  name: 'LR-09',
+  image:
+    'assets/katalog_design/living-room/LR-09.jpg'
+},
+{
+  name: 'LR-10',
+  image:
+    'assets/katalog_design/living-room/LR-10.png'
+},
+{
+  name: 'LR-11',
+  image:
+    'assets/katalog_design/living-room/LR-11.png'
+},
+{
+  name: 'LR-12',
+  image:
+    'assets/katalog_design/living-room/LR-12.png'
+},
+{
+  name: 'LR-13',
+  image:
+    'assets/katalog_design/living-room/LR-13.png'
+},
+{
+  name: 'LR-14',
+  image:
+    'assets/katalog_design/living-room/LR-14.png'
+},
+{
+  name: 'LR-15',
+  image:
+    'assets/katalog_design/living-room/LR-15.png'
+},
+{
+  name: 'LR-16',
+  image:
+    'assets/katalog_design/living-room/LR-16.png'
+},
+{
+  name: 'LR-17',
+  image:
+    'assets/katalog_design/living-room/LR-17.png'
+},
+{
+  name: 'LR-18',
+  image:
+    'assets/katalog_design/living-room/LR-18.png'
+},
+{
+  name: 'LR-19',
+  image:
+    'assets/katalog_design/living-room/LR-19.png'
+},
+{
+  name: 'LR-20',
+  image:
+    'assets/katalog_design/living-room/LR-20.png'
+},
+{
+  name: 'LR-21',
+  image:
+    'assets/katalog_design/living-room/LR-21.png'
+},
+{
+  name: 'LR-22',
+  image:
+    'assets/katalog_design/living-room/LR-22.png'
+},
+{
+  name: 'LR-23',
+  image:
+    'assets/katalog_design/living-room/LR-23.png'
+},
+{
+  name: 'LR-24',
+  image:
+    'assets/katalog_design/living-room/LR-24.png'
+},
+{
+  name: 'LR-25',
+  image:
+    'assets/katalog_design/living-room/LR-25.png'
+},
+{
+  name: 'LR-26',
+  image:
+    'assets/katalog_design/living-room/LR-26.png'
+},
+{
+  name: 'LR-27',
+  image:
+    'assets/katalog_design/living-room/LR-27.png'
+},
+{
+  name: 'LR-28',
+  image:
+    'assets/katalog_design/living-room/LR-28.png'
+},
+{
+  name: 'LR-29',
+  image:
+    'assets/katalog_design/living-room/LR-29.png'
+},
+{
+  name: 'LR-30',
+  image:
+    'assets/katalog_design/living-room/LR-30.png'
+},
+{
+  name: 'LR-31',
+  image:
+    'assets/katalog_design/living-room/LR-31.png'
+},
+{
+  name: 'LR-32',
+  image:
+    'assets/katalog_design/living-room/LR-32.png'
+},
+{
+  name: 'LR-33',
+  image:
+    'assets/katalog_design/living-room/LR-33.png'
+},
+{
+  name: 'LR-34',
+  image:
+    'assets/katalog_design/living-room/LR-34.png'
+},
+{
+  name: 'LR-35',
+  image:
+    'assets/katalog_design/living-room/LR-35.png'
+},
+{
+  name: 'LR-36',
+  image:
+    'assets/katalog_design/living-room/LR-36.png'
+},
+{
+  name: 'LR-37',
+  image:
+    'assets/katalog_design/living-room/LR-37.png'
+},
+{
+  name: 'LR-38',
+  image:
+    'assets/katalog_design/living-room/LR-38.png'
+},
+{
+  name: 'LR-39',
+  image:
+    'assets/katalog_design/living-room/LR-39.png'
+},
+{
+  name: 'LR-40',
+  image:
+    'assets/katalog_design/living-room/LR-40.png'
+},
+{
+  name: 'LR-41',
+  image:
+    'assets/katalog_design/living-room/LR-41.png'
+},
+{
+  name: 'LR-42',
+  image:
+    'assets/katalog_design/living-room/LR-42.png'
+},
+{
+  name: 'LR-43',
+  image:
+    'assets/katalog_design/living-room/LR-43.jpg'
+},
+{
+  name: 'LR-44',
+  image:
+    'assets/katalog_design/living-room/LR-44.jpg'
+},
+{
+  name: 'LR-45',
+  image:
+    'assets/katalog_design/living-room/LR-45.png'
+},
+{
+  name: 'LR-46',
+  image:
+    'assets/katalog_design/living-room/LR-46.png'
+},
+{
+  name: 'LR-47',
+  image:
+    'assets/katalog_design/living-room/LR-47.png'
+},
+{
+  name: 'LR-48',
+  image:
+    'assets/katalog_design/living-room/LR-48.png'
+},
+{
+  name: 'LR-49',
+  image:
+    'assets/katalog_design/living-room/LR-49.png'
+},
+{
+  name: 'LR-50',
+  image:
+    'assets/katalog_design/living-room/LR-50.png'
+},
+{
+  name: 'LR-51',
+  image:
+    'assets/katalog_design/living-room/LR-51.png'
+},
+{
+  name: 'LR-52',
+  image:
+    'assets/katalog_design/living-room/LR-52.png'
+},
+{
+  name: 'LR-53',
+  image:
+    'assets/katalog_design/living-room/LR-53.png'
+},
+{
+  name: 'LR-54',
+  image:
+    'assets/katalog_design/living-room/LR-54.png'
+},
+{
+  name: 'LR-55',
+  image:
+    'assets/katalog_design/living-room/LR-55.png'
+},
+{
+  name: 'LR-56',
+  image:
+    'assets/katalog_design/living-room/LR-56.png'
+},
+{
+  name: 'LR-57',
+  image:
+    'assets/katalog_design/living-room/LR-57.png'
+},
+{
+  name: 'LR-58',
+  image:
+    'assets/katalog_design/living-room/LR-58.png'
+},
+{
+  name: 'LR-59',
+  image:
+    'assets/katalog_design/living-room/LR-59.png'
+},
+{
+  name: 'LR-60',
+  image:
+    'assets/katalog_design/living-room/LR-60.png'
+},
+{
+  name: 'LR-61',
+  image:
+    'assets/katalog_design/living-room/LR-61.png'
+},
+{
+  name: 'LR-62',
+  image:
+    'assets/katalog_design/living-room/LR-62.png'
+},
+{
+  name: 'LR-63',
+  image:
+    'assets/katalog_design/living-room/LR-63.png'
+},
+{
+  name: 'LR-64',
+  image:
+    'assets/katalog_design/living-room/LR-64.png'
+},
+{
+  name: 'LR-65',
+  image:
+    'assets/katalog_design/living-room/LR-65.png'
+},
+{
+  name: 'LR-66',
+  image:
+    'assets/katalog_design/living-room/LR-66.png'
+},
+{
+  name: 'LR-67',
+  image:
+    'assets/katalog_design/living-room/LR-67.png'
+},
+{
+  name: 'LR-68',
+  image:
+    'assets/katalog_design/living-room/LR-68.png'
+},
+{
+  name: 'LR-69',
+  image:
+    'assets/katalog_design/living-room/LR-69.png'
+},
+{
+  name: 'LR-70',
+  image:
+    'assets/katalog_design/living-room/LR-70.png'
+},
+{
+  name: 'LR-71',
+  image:
+    'assets/katalog_design/living-room/LR-71.png'
+},
+{
+  name: 'LR-72',
+  image:
+    'assets/katalog_design/living-room/LR-72.png'
+},
+{
+  name: 'LR-73',
+  image:
+    'assets/katalog_design/living-room/LR-73.png'
+},
+{
+  name: 'LR-74',
+  image:
+    'assets/katalog_design/living-room/LR-74.png'
+},
+{
+  name: 'LR-75',
+  image:
+    'assets/katalog_design/living-room/LR-75.png'
+},
+{
+  name: 'LR-76',
+  image:
+    'assets/katalog_design/living-room/LR-76.png'
+},
+{
+  name: 'LR-77',
+  image:
+    'assets/katalog_design/living-room/LR-77.png'
+},
+{
+  name: 'LR-78',
+  image:
+    'assets/katalog_design/living-room/LR-78.png'
+},
+{
+  name: 'LR-79',
+  image:
+    'assets/katalog_design/living-room/LR-79.png'
+},
+{
+  name: 'LR-80',
+  image:
+    'assets/katalog_design/living-room/LR-80.png'
+},
+{
+  name: 'LR-81',
+  image:
+    'assets/katalog_design/living-room/LR-81.png'
+},
+{
+  name: 'LR-82',
+  image:
+    'assets/katalog_design/living-room/LR-82.png'
+},
+{
+  name: 'LR-83',
+  image:
+    'assets/katalog_design/living-room/LR-83.png'
+}
 
     ]
   },
